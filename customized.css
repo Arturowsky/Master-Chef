@@ -1,0 +1,237 @@
+/* RESET */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  color: red;
+}
+.nav-link:hover {
+  
+}
+
+/* JUMBOTRON BACKGROUND */
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+    min-height:50vh;
+}
+
+/* */
+.call-to-action2 {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+    background-color: #68c4b5;
+
+}
+
+  /* PARALLAX EFFECT */
+  .parallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  /* CARDS */
+.card {
+    border-radius: 0;
+    -webkit-box-shadow: 0px 1px 15px 5px #d2d7d3;
+    box-shadow: 0px 1px 15px 5px #d2d7d3;
+    border: 10px solid #fff;
+}
+.card:hover {
+    border-radius: 0;
+    border: 10px solid #cd243b;
+    background-color: #cd243b;
+    color: #fff;
+}
+
+/* WEBSITE BACKGROUND - dodana reguła do kontenera w navi */
+.bg-light {
+    background-color: #f8f9fa!important
+}
+.lead4 {
+  font-size: 1.5rem;
+}
+/* FIRST LETTER */
+.lead3::first-letter {
+    font-size: 3.25rem;
+    font-weight: 700;
+    background-color: #fff;
+    color: #cd243b;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0 10px 0 10px;
+    float: left;
+}
+/* FIRST LETTER TWO */
+.lead4::first-letter {
+    font-size: 4rem;
+    font-weight: 700;
+    background-color: #cd243b;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0 10px 0 10px;
+    float: left;
+}
+/* BBC SHOW RIGHT SECTION */
+.red{
+    background-color: #cd243b;
+}
+.padding50 { 
+    padding: 100px 100px 100px 100px;
+    margin-right: 100px;
+}
+
+.border-bottom2 {
+    border-bottom: 5px solid #cd243b!important
+}
+
+
+/* PADDING BETWEEN SECTIONS */
+.updown {
+    padding: 70px 0 70px;
+}
+.updown2 {
+    margin-top: 70px; 
+    margin-bottom: 70px;
+}
+.updown3 {
+     margin-bottom: 50px;
+}
+
+/* FONT AWSOME */
+.awsome { 
+    font-size: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.awsome:hover { 
+    font-size: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #67809f;
+}
+
+.widget-color { 
+  color: #cd243b;
+}
+
+/* LINKI W STOPCE*/
+/* nieodwiedzony */
+a:link {
+  color: #22313f;
+  font-weight: bold;
+}
+
+/* odwiedzony */
+a:visited {
+  color: #22313f;
+  font-weight: bold;
+}
+
+/* hover */
+a:hover {
+  color: #2980b9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* klikniety */
+a:active {
+  color: #913d88;
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* BACKGROUND UNDER H1 - dont repeat h1 tags in HTML ! you fool */
+.redbg {
+  background: rgba(205, 36, 59, 0.7);
+  padding: 20px 20px;
+  text-align: center;
+}
+/* NAVBAR STYLING FOR MOBILE */
+@media (max-width: 576px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  .navimg {
+    width: 85%;
+    height: auto;
+  }
+}
+
+
+/* SUBSCRIBE SECTION STYLING */
+.subscribe {
+  background: #cd243b;
+  width: 100vw;
+  height: 300px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+@media (max-width: 576px) {
+  .subscribe {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    /* grid-auto-flow: dense; */
+    padding: 40px 20px;
+  }
+  .display-2 {
+    font-size: 5rem;
+  }
+}
+.padding-20 {
+  padding: 20px 20px;
+  width: 75%;
+  display: flex;
+  justify-items: flex-end;
+}
+.subText {
+ 
+}
+.btn-outline-secondary {
+  background: #eb4d4b;
+  color: #fff;
+}
+.btn-outline-secondary:hover {
+  background: #1dd1a1;
+  color: rgb(41, 40, 40);
+}
